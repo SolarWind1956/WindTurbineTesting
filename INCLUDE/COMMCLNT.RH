@@ -1,0 +1,15 @@
+//----------------------------------------------------------------------------
+// ObjectWindows - (C) Copyright 1991, 1993 by Borland International
+//
+//----------------------------------------------------------------------------
+#include <owl\window.rh>
+
+#define TDMLClientWindow_MENU  100
+
+#define CM_CONNECT		101
+#define CM_DISCONNECT	102
+#define CM_CYCLE			103
+#define CM_NET				104
+#define CM_HELPABOUT		105
+#define CM_MONITORY		106
+

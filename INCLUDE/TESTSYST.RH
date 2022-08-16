@@ -1,0 +1,258 @@
+#if !defined(__testsyst_rh)                // Sentry use file only if it's not already included.
+#define __testsyst_rh
+/*  Main testsyst
+	 Crimea DC RER
+	 Copyright © 1994. All Rights Reserved.
+
+	 SUBSYSTEM:    testsyst.exe Application
+	 FILE:         testsyst.h
+	 AUTHOR:       Sergey E. Heckel
+
+
+	 OVERVIEW
+	 ========
+	 Constant definitions for all resources defined in testsyst.rc.
+
+	 * For each dialog most be reserved 20 identificators
+*/
+//#include <owl\window.rh>
+//
+// Application specific definitions:
+//
+
+// for Main Dialog 100 :|: 119
+#define IDC_BUTTON1	 100
+#define IDC_BUTTON2	 101
+#define IDC_BUTTON3	 102
+#define IDC_BUTTON4	 103
+#define IDC_BUTTON5	 104
+#define IDC_BUTTON6	 105
+#define IDC_BUTTON7	106
+#define IDC_BUTTON8	107
+#define IDC_BUTTON9	108
+#define IDC_BUTTON10  109
+#define IDC_BUTTON11	 110
+#define IDC_BUTTON12	111
+#define IDC_BUTTON13	112
+#define IDC_BUTTON14	113
+#define IDC_WINDSTAT	114
+
+// for Monitoring Window - Dialog 120 :|: 139
+#define IDW_MONITOR1	120
+#define IDW_MONITOR2	121
+#define IDW_MONITOR3	122
+#define IDW_MONITOR4	123
+#define IDW_MONITOR5	124
+#define IDW_MONITOR6	125
+#define IDW_MONITOR7	126
+#define IDW_MONITOR8	127
+//	128..134 free
+#define IDW_STATUSWND	135
+
+// for Tests Dialog 200 :|: 219
+#define IDC_TLISTBOX1	201
+#define IDC_TLISTBOX2	202
+#define IDC_TLISTBOX3	203
+#define CM_TESTHELP	204
+#define CM_TESTEXIT	205
+#define CM_TESTSTART	206
+#define CM_TESTSTOP	207
+
+// for VIEW Data Dialog 220 :|: 239
+#define IDC_LISTGRAPH_CB	220
+#define IDC_GRIDTRG_CHB		221
+#define IDC_VIEWEXIT			222
+#define IDC_VIEWHELP			223
+#define IDC_INSTRUMENTBOX_SB	224
+#define IDC_GRAPHBOX_SB		225
+#define IDC_MESSAGE_IB		226
+
+// for Change time perios dialog 240 :|: 259
+#define IDC_PINPUT			240
+#define IDC_LTEXT1			241
+#define IDC_EDIT1				242
+#define IDC_EDIT2				243
+#define IDC_EDIT3				244
+#define IDC_EDIT4				245
+#define IDC_PRBUTTONSEC		246
+#define IDC_PRBUTTONMIN		247
+#define IDC_PRBUTTONHOUR	248
+#define IDC_PMESSAGE			249
+#define IDC_PRBUTTONMSEC	250
+#define IDC_PTIMERCORRECT	251
+
+// for Edit type PC 260 :|: 279
+#define IDC_Help_CONT				260
+#define IDC_Save_CONT				262
+#define IDC_Delete_CONT				263
+
+#define IDC_TypePC_CONT				264
+#define IDC_Firma_CONT				265
+#define IDC_MainProcessor_CONT	266
+#define IDC_NetProcessor_CONT		267
+#define IDC_Interface1_CONT		268
+#define IDC_Interface2_CONT		269
+#define IDC_TypeProtocol_CONT		270
+
+#define IDC_Message_CONT			271
+#define IDC_MICROPC					272
+
+// for Edit type Modules 280 :|: 309
+#define IDC_TMicroPCList_MDIO	280
+#define IDC_TModuleList_MDIO 	281
+
+#define IDC_Modul_A_MDIO		282
+#define IDC_Modul_D_MDIO		283
+#define IDC_Modul_C_MDIO		284
+#define IDC_Modul_F_MDIO		285
+#define IDC_Modul_U_MDIO		286
+
+#define IDC_TypeModule_MDIO	287
+#define IDC_NumPlace_MDIO		299
+#define IDC_NumChannel_MDIO	288
+
+#define IDC_Boundares_MDIO		292
+#define IDC_Dimension_MDIO		291
+#define IDC_Resolution_MDIO	293
+#define IDC_Tolerance_MDIO		294
+
+#define IDC_Current_MDIO		289
+#define IDC_Voltage_MDIO		290
+
+#define IDC_Delete_MDIO			295
+#define IDC_Save_MDIO			296
+#define IDC_Help_MDIO			297
+#define IDC_Message_MDIO		298
+#define IDC_MODULEIO				299
+
+// for Edit type Sensors 310 :|: 350
+#define IDC_NameSensor_SENS	310
+#define IDC_CodeSensor_SENS	311
+#define IDC_TypeSensor_SENS	312
+#define IDC_LoBoundOut_SENS	313
+#define IDC_HiBoundOut_SENS	314
+#define IDC_DimensIn_SENS		315
+#define IDC_LoBoundIn_SENS		316
+#define IDC_HiBoundIn_SENS		317
+#define IDC_DimensOut_SENS		318
+#define IDC_Tolerance_SENS		320
+#define IDC_DupDimensIn_SENS	321
+#define IDC_DupDimensOut_SENS	322
+#define IDC_GradPointX1_SENS	323
+#define IDC_GradPointX2_SENS	324
+#define IDC_GradPointX3_SENS	325
+#define IDC_GradPointX4_SENS	326
+#define IDC_GradPointX5_SENS	327
+#define IDC_GradPointX6_SENS	328
+#define IDC_GradPointY1_SENS	329
+#define IDC_GradPointY2_SENS	330
+#define IDC_GradPointY3_SENS	331
+#define IDC_GradPointY4_SENS	332
+#define IDC_GradPointY5_SENS	333
+#define IDC_GradPointY6_SENS	334
+#define IDC_Graduir_SENS		335
+#define IDC_ApproxA0_SENS		336
+#define IDC_ApproxA1_SENS		337
+#define IDC_ApproxA2_SENS		338
+#define IDC_ApproxA3_SENS		339
+#define IDC_ApproxA4_SENS		340
+#define IDC_ApproxA5_SENS		341
+#define IDC_TypeApprox_SENS	346
+#define IDC_Help_SENS			342
+#define IDC_Save_SENS			343
+#define IDC_Delete_SENS			344
+#define IDC_Message_SENS		345
+
+// for Edit type Transducer  350 :|: 390
+#define IDC_NameTransduc_TRNS	350
+#define IDC_CodeTransduc_TRNS	351
+
+#define IDC_LoBoundIn_TRNS		352
+#define IDC_HiBoundIn_TRNS		353
+#define IDC_DimensIn_TRNS		354
+#define IDC_LoBoundOut_TRNS	355
+#define IDC_HiBoundOut_TRNS	356
+#define IDC_DimensOut_TRNS		357
+#define IDC_Tolerance_TRNS		358
+#define IDC_TypeApprox_TRNS	359
+#define IDC_DupDimensIn_TRNS	360
+#define IDC_DupDimensOut_TRNS	361
+#define IDC_GradPointX1_TRNS	362
+#define IDC_GradPointX2_TRNS	363
+#define IDC_GradPointX3_TRNS	364
+#define IDC_GradPointX4_TRNS	365
+#define IDC_GradPointX5_TRNS	366
+#define IDC_GradPointX6_TRNS	367
+#define IDC_GradPointY1_TRNS	368
+#define IDC_GradPointY2_TRNS	369
+#define IDC_GradPointY3_TRNS	370
+#define IDC_GradPointY4_TRNS	371
+#define IDC_GradPointY5_TRNS	372
+#define IDC_GradPointY6_TRNS	373
+#define IDC_Graduir_TRNS		374
+#define IDC_ApproxA0_TRNS		375
+#define IDC_ApproxA1_TRNS		376
+#define IDC_ApproxA2_TRNS		377
+#define IDC_ApproxA3_TRNS		378
+#define IDC_ApproxA4_TRNS		379
+#define IDC_ApproxA5_TRNS		380
+#define IDC_Help_TRNS			381
+#define IDC_Delete_TRNS			382
+#define IDC_Save_TRNS			383
+#define IDC_Message_TRNS		384
+
+// for Edit type Channel IO  390 :|: 410
+#define IDC_NameChanIO_CHNL 390
+#define IDC_ChanIO_A_CHNL   391
+#define IDC_ChanIO_D_CHNL	 392
+#define IDC_ChanIO_C_CHNL   393
+#define IDC_ChanIO_F_CHNL   394
+#define IDC_ChanIO_N_CHNL   395
+#define IDC_CodeChanIO_CHNL 396
+#define IDC_NumLogChan_CHNL 397
+#define IDC_ArrayIndex_CHNL 398
+#define IDC_TypeChanIO_CHNL 399
+#define IDC_MicroPC_CHNL    400
+#define IDC_ModuleIC_CHNL   401
+#define IDC_TransducIC_CHNL 402
+#define IDC_SensorIC_CHNL   403
+#define IDC_Tolerance_CHNL  404
+#define IDC_Delete_CHNL     405
+#define IDC_Save_CHNL	    406
+#define IDC_Message_CHNL	 407
+#define IDC_Help_CHNL 		 408
+
+// for Edit type Instrument  420 :|: 440
+#define IDC_Name_INSTR		420
+#define IDC_Type_INSTR		421
+#define IDC_Dimens_INSTR	422
+#define IDC_LoBound_INSTR	423
+#define IDC_HiBound_INSTR	424
+#define IDC_X1_INSTR			425
+#define IDC_Y1_INSTR			426
+#define IDC_X2_INSTR			427
+#define IDC_Y2_INSTR			428
+#define IDC_Color_INSTR		429
+#define IDC_Save_INSTR		430
+#define IDC_Delete_INSTR	431
+#define IDC_Help_INSTR		432
+#define IDC_Message_INSTR	433
+#define CM_Create_INSTR		434
+#define CM_Delete_INSTR    435
+#define CM_Color_INSTR     436
+#define CM_Setting_INSTR   437
+
+// for Input Dialog 510 :|: 520
+#define INPTMENU	510
+#define CM_NETHELP	511
+#define CM_ONOFFCYCLE	512
+#define CM_ONOFFINSTANT	513
+#define CM_CHANGECYCLE	514
+#define CM_CHANGEINSTANT	515
+#define CM_ONOFFNET	516
+#define CM_CHANGENET	517
+#define CM_NETEXIT	518
+#define CM_ONOFFMONITOR	519
+#define CM_CHANGEMONITP	520
+
+#endif         // __testsyst_rh sentry.

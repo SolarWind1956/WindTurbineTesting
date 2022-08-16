@@ -1,0 +1,40 @@
+#if !defined(__steps_rh)     
+#define BITMAP_1	1
+#define __steps_rh
+/*  Main steps
+	 Crimea DC RER
+	 Copyright © 1994. All Rights Reserved.
+
+	 SUBSYSTEM:    steps.exe Application
+	 AUTHOR:       Sergey E. Heckel
+
+
+	 OVERVIEW
+	 ========
+	 Constant definitions for all resources defined in testsyst.rc.
+
+	 * For each dialog most be reserved 20 identificators
+*/
+#define IDW_MONITOR1	120
+#define IDW_MONITOR2	121
+#define IDW_MONITOR3	122
+#define IDW_MONITOR4	123
+#define IDW_MONITOR5	124
+#define IDW_MONITOR6	125
+#define IDW_MONITOR7	126
+#define IDW_MONITOR8	127
+//	128..134 free
+#define IDW_STATUSWND	135
+#define IDW_STATUS	136
+
+#define CM_CHANGENET 	500
+#define CM_ONOFFNET 	501
+#define CM_ONOFFMONITOR	502
+#define CM_NETEXIT	503
+#define CM_CHANGEMETEO 	504
+#define CM_ONOFFMETEO	505
+#define CM_CHANGECYCLE	506
+#define CM_ONOFFCYCLE 	507
+#define CM_NETHELP	508
+
+#endif

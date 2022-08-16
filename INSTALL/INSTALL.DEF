@@ -1,0 +1,9 @@
+NAME           UnInstall
+DESCRIPTION    'Windows TestSyst Uninstallation Program 1996'
+EXETYPE        WINDOWS
+STUB           'WINSTUB.EXE'
+CODE           PRELOAD FIXED
+DATA           PRELOAD FIXED MULTIPLE
+HEAPSIZE       2048
+STACKSIZE      8192
+

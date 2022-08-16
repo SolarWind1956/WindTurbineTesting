@@ -1,0 +1,19 @@
+;------------------------------------------------
+;   Main powercha
+;   Crimea Engineering Centre
+;   Авторское право © 1996. Все права защищены.
+;
+;   SUBSYSTEM:    powercha.exe Module Defintion File
+;   FILE:         powercha.def
+;   AUTHOR:       Heckel & Davidov
+;
+;------------------------------------------------
+
+NAME powercha
+
+DESCRIPTION 'powercha Application - Авторское право © 1996. Все права защищены.'
+EXETYPE     WINDOWS
+CODE        PRELOAD MOVEABLE DISCARDABLE
+DATA        PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE    4096
+STACKSIZE   8192

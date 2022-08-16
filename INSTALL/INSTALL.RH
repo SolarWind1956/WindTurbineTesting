@@ -1,0 +1,232 @@
+#if !defined(__install_rh)                // Sentry use file only if it's not already included.
+#define ICON_4	4
+#define ICON_2	2
+#define ICON_3	3
+#define __install_rh
+/*  Main Install
+	 Crimea DC RER
+	 Copyright © 1994. All Rights Reserved.
+
+	 SUBSYSTEM:    Install.exe Application
+	 FILE:         Install.h
+	 AUTHOR:       Sergey E. Heckel
+
+
+	 OVERVIEW
+	 ========
+	 Constant definitions for all resources defined in testsyst.rc.
+
+	 * For each dialog most be reserved 20 identificators
+*/
+#include <owl\inputdia.rh>
+#include <owl\window.rh>
+//
+// Application specific definitions:
+//
+
+// for Main Dialog 100 :|: 119
+#define IDC_BUTTON1	 100
+#define IDC_BUTTON2	 101
+#define IDC_BUTTON3	 102
+#define IDC_BUTTON4	 103
+#define IDC_BUTTON5	 104
+#define IDC_BUTTON6	 105
+#define IDC_BUTTON7	106
+#define IDC_BUTTON8	107
+#define IDC_BUTTON9	108
+#define IDC_BUTTON10  109
+#define IDC_BUTTON11	 110
+#define IDC_BUTTON12	111
+#define IDC_BUTTON13	112
+
+// for Monitoring Dialog 120 :|: 139
+#define IDW_MONITOR1	120
+#define IDW_MONITOR2	121
+#define IDW_MONITOR3	122
+#define IDW_MONITOR4	123
+#define IDW_MONITOR5	124
+#define IDW_MONITOR6	125
+#define IDC_BISWITCH1	126
+#define IDC_BISWITCH3	127
+#define IDC_BISWITCH4	128
+#define IDC_DBUTTON1	129
+#define IDC_DBUTTON2	130
+#define IDC_DBUTTON3	131
+#define IDC_DBUTTON5	132
+#define IDC_DBUTTON4	133
+#define IDC_MONITORY	134
+
+// for Tests Dialog 200 :|: 219
+#define IDC_TLISTBOX1	201
+#define IDC_TLISTBOX2	202
+#define IDC_TLISTBOX3	203
+#define IDC_TBUTTON1	204
+#define IDC_TBUTTON2	205
+#define IDC_TBUTTON3	206
+#define IDC_TBUTTON4	207
+#define IDC_TTIME	208
+#define IDC_BISWITCH5	209
+
+// for VIEW Data Dialog 220 :|: 239
+#define IDC_VGRAPH	220
+#define IDC_VSCALE1	221
+#define IDC_VSCALE2	222
+#define IDC_VBUTTON1	223
+#define IDC_VBUTTON2	224
+#define IDC_VCOMBOBOX	225
+#define IDC_VMESSAGE	226
+#define IDC_BISWITCH6	227
+#define IDC_VGCKBOX	228
+
+// for Change time perios dialog 240 :|: 259
+#define IDC_PINPUT	240
+#define IDC_PRBUTTONSEC	245
+#define IDC_PRBUTTONMIN	246
+#define IDC_PRBUTTONHOUR	247
+#define IDC_PMESSAGE	248
+#define IDC_PRBUTTONMSEC	249
+
+// for Edit type PC 260 :|: 279
+#define IDC_PCBUTTON1	260
+#define IDC_PCSAVE	262
+#define IDC_PCDEL	263
+#define IDC_PCTYPE	264
+#define IDC_PCMADE	265
+#define IDC_PCMAINPROC  266
+#define IDC_PCNETPROC   267
+#define IDC_PCINTERFACE1   268
+#define IDC_PCINTERFACE2   269
+#define IDC_PCPROTOCOL  270
+#define IDC_PCMESSAGE	271
+
+// for Edit type Modules 280 :|: 309
+#define IDC_MODIOPCNAME	280
+#define IDC_MODIO	281
+#define IDC_MODIOA	282
+#define IDC_MODIOD	283
+#define IDC_MODIOC	284
+#define IDC_MODIOF	285
+#define IDC_MODIOU	286
+#define IDC_TYPEMODIO	287
+#define IDC_NUMCANMODIO	288
+#define IDC_CURRMODIO	289
+#define IDC_VOLTMODIO	290
+#define IDC_DIMMODIO	291
+#define IDC_BOUNDMODIO	292
+#define IDC_RESOLMODIO	293
+#define IDC_TOLERMODIO	294
+#define IDC_MODIODEL	295
+#define IDC_MODIOSAVE	296
+#define IDC_MODIOBUTTON1	297
+#define IDC_MESSAGEMODIO	298
+#define IDC_NUMPLACEMODIO	299
+
+// for Edit type Sensors 310 :|: 350
+#define IDC_SENSNAME	310
+#define IDC_SENSMARK	311
+#define IDC_SENSTYPE	312
+#define IDC_SENSLOOUT	313
+#define IDC_SENSHIOUT	314
+#define IDC_SENSVALDIM  315
+#define IDC_SENSLOVAL	316
+#define IDC_SENSHIVAL	317
+#define IDC_SENSOUTDIM	318
+#define IDC_SENSLINEAR	319
+#define IDC_SENSTOLER	320
+#define IDC_SENSTYPEVALUE	321
+#define IDC_SENSTYPEOUT	322
+#define IDC_SENSVALUE1	323
+#define IDC_SENSVALUE2	324
+#define IDC_SENSVALUE3	325
+#define IDC_SENSVALUE4	326
+#define IDC_SENSVALUE5	327
+#define IDC_SENSVALUE6	328
+#define IDC_SENSOUTSIGNAL1	329
+#define IDC_SENSOUTSIGNAL2	330
+#define IDC_SENSOUTSIGNAL3	331
+#define IDC_SENSOUTSIGNAL4	332
+#define IDC_SENSOUTSIGNAL5	333
+#define IDC_SENSOUTSIGNAL6	334
+#define IDC_SENSGENERATE	335
+#define IDC_SENSGRADUIR	336
+#define IDC_SENSApprA0	337
+#define IDC_SENSApprA1	338
+#define IDC_SENSApprA2	339
+#define IDC_SENSApprA3	340
+#define IDC_SENSApprA4	341
+#define IDC_SENSApprA5	342
+#define IDC_SENSBUTTON1	343
+#define IDC_SENSSAVE	344
+#define IDC_SENSDEL	345
+#define IDC_SENSMESSAGE	346
+
+// for Edit type Transducer  350 :|: 390
+
+#define IDC_TRANSNAME	350
+#define IDC_TRANSMARK	351
+#define IDC_TRANSLOOUT	352
+#define IDC_TRANSHIOUT	353
+#define IDC_TRANSVALDIM	354
+#define IDC_TRANSLOVAL	355
+#define IDC_TRANSHIVAL	356
+#define IDC_TRANSOUTDIM	357
+#define IDC_TRANSTOLER	258
+#define IDC_TRANSLINEAR	359
+#define IDC_TRANSTYPEVALUE 360
+#define IDC_TRANSTYPEOUT 361
+#define IDC_TRANSVALUE1	362
+#define IDC_TRANSVALUE2	363
+#define IDC_TRANSVALUE3	364
+#define IDC_TRANSVALUE4	365
+#define IDC_TRANSVALUE5	366
+#define IDC_TRANSVALUE6	367
+#define IDC_TRANSOUTSIGNAL1	368
+#define IDC_TRANSOUTSIGNAL2	369
+#define IDC_TRANSOUTSIGNAL3	370
+#define IDC_TRANSOUTSIGNAL4	371
+#define IDC_TRANSOUTSIGNAL5	372
+#define IDC_TRANSOUTSIGNAL6	373
+#define IDC_TRANSGENERATE	374
+#define IDC_TRANSGRADUIR	375
+#define IDC_TRANSApprA0	376
+#define IDC_TRANSApprA1	377
+#define IDC_TRANSApprA2	378
+#define IDC_TRANSApprA3	379
+#define IDC_TRANSApprA4	380
+#define IDC_TRANSApprA5	381
+#define IDC_TRANSBUTTON1	382
+#define IDC_TRANSDEL	383
+#define IDC_TRANSSAVE	384
+#define IDC_TRANSMESSAGE	385
+
+// for Edit type Channel IO  390 :|:
+
+#define IDC_CHANNELIO	390
+#define IDC_RBCHANNIOA	391
+#define IDC_RBCHANNIOD	392
+#define IDC_RBCHANNIOC	394
+#define IDC_RBCHANNIOF	394
+#define IDC_RBCHANNION	395
+#define IDC_MICROPC	396
+#define IDC_DELPC	397
+#define IDC_ADDPC	398
+#define IDC_CHANNIOPC	399
+#define IDC_MODULESIO	400
+#define IDC_DELMOD	401
+#define IDC_ADDMOD	402
+#define IDC_CHANNIOMOD	403
+#define IDC_TRANSDUCERS	404
+#define IDC_DELTRUNS	405
+#define IDC_ADDTRANS	406
+#define IDC_CHANNIOTRANS	407
+#define IDC_SENSORS	408
+#define IDC_DELSENS	409
+#define IDC_ADDSENS	410
+#define IDC_CHANNIOSENS	411
+#define IDC_CHANNIOTOL	412
+#define IDC_IDC_CHANNIOBUTTON1	413
+#define IDC_CHANNIODEL	414
+#define IDC_CHANNIOSAVE	415
+#define IDC_CHANNIOMESSAGE	416
+
+#endif         // __testsyst_rh sentry.
